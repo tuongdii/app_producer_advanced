@@ -17,6 +17,7 @@ To install PyQt6 and related tools, you simply need to use the pip command in Co
 
 Open the Command Prompt or Terminal and type the following command:
 
+***pip install pyqt6-tools***
 
 The above command will automatically download and install PyQt6 along with the necessary tools.
 
