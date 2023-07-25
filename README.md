@@ -32,7 +32,5 @@ At this point, your program will be executed and the corresponding graphical use
 
 ## Conclusion
 
-That's all! You have successfully installed PyQt6 and run the `program.py` program. Now you are ready to develop interesting GUI applications using the PyQt6 library.
-
-If you encounter any issues during the installation or running of the program, refer to the official documentation and website of PyQt6 for more detailed information.
+You have successfully installed PyQt6 and run the `program.py` program. Now you are ready to develop interesting GUI applications using the PyQt6 library.
 
