@@ -36,4 +36,5 @@ You have successfully installed PyQt6 and run the `program.py` program. Now you 
 
 ## Account Login for MemberManagement and Pet AdoptionApp
 email: admin@example.com
+
 password: admin
