@@ -34,3 +34,6 @@ At this point, your program will be executed and the corresponding graphical use
 
 You have successfully installed PyQt6 and run the `program.py` program. Now you are ready to develop interesting GUI applications using the PyQt6 library.
 
+#Account Login for MemberManagement and Pet AdoptionApp
+email: admin@example.com
+password: admin
