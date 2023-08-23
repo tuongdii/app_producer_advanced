@@ -280,7 +280,7 @@ QComboBox::item:selected {
             <number>-1</number>
            </property>
            <property name="placeholderText">
-            <string>Dog breed</string>
+            <string>Breed</string>
            </property>
            <property name="duplicatesEnabled">
             <bool>false</bool>
@@ -361,7 +361,7 @@ QComboBox::item:selected {
 </string>
            </property>
            <property name="placeholderText">
-            <string>Dog color</string>
+            <string>Color</string>
            </property>
            <item>
             <property name="text">

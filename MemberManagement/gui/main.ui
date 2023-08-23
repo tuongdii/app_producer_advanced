@@ -614,7 +614,7 @@ border-radius: 15px;</string>
 </string>
              </property>
              <property name="text">
-              <string>R&amp;D Coding</string>
+              <string>R&amp;D Manager</string>
              </property>
             </widget>
             <widget class="QPushButton" name="btn_viewImg6">
@@ -660,7 +660,7 @@ border-radius: 15px;</string>
 color: #ffffff;</string>
              </property>
              <property name="text">
-              <string>Nguyen Min</string>
+              <string>Nghia Cao</string>
              </property>
             </widget>
            </widget>

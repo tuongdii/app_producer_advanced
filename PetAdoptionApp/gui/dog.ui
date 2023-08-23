@@ -403,7 +403,7 @@ QComboBox::item:selected {
                 <number>-1</number>
                </property>
                <property name="placeholderText">
-                <string>Dog breed</string>
+                <string>Breed</string>
                </property>
                <property name="duplicatesEnabled">
                 <bool>false</bool>
@@ -482,7 +482,7 @@ QComboBox::item:selected {
 </string>
                </property>
                <property name="placeholderText">
-                <string>Dog color</string>
+                <string>Color</string>
                </property>
                <item>
                 <property name="text">
@@ -647,107 +647,6 @@ color: #F8F2EC;
           <property name="rightMargin">
            <number>0</number>
           </property>
-          <item row="2" column="0">
-           <widget class="QWidget" name="widget_13" native="true">
-            <property name="styleSheet">
-             <string notr="true">QWidget{
-    background-color: #C3BBAB;
-    border-radius: 15px;
-}
-QWidget:hover{
-	background-color: #86aacc;
-    border-radius: 15px;
-}</string>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_10">
-             <item>
-              <widget class="QPushButton" name="pushButton_29">
-               <property name="styleSheet">
-                <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="icon">
-                <iconset>
-                 <normaloff>../img/15-giong-cho-canh-dep-de-cham-soc-pho-bien-tai-viet-nam-202201200909197585-fotor-20230801154436.png</normaloff>../img/15-giong-cho-canh-dep-de-cham-soc-pho-bien-tai-viet-nam-202201200909197585-fotor-20230801154436.png</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>80</width>
-                 <height>80</height>
-                </size>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QWidget" name="widget_25" native="true">
-               <property name="styleSheet">
-                <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_11">
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_32">
-                  <property name="styleSheet">
-                   <string notr="true">font: 14pt &quot;Bahnschrift&quot;;
-color: #1b1209;</string>
-                  </property>
-                  <property name="text">
-                   <string>Yu-jin</string>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/icons8-female-64.png</normaloff>../img/icons8-female-64.png</iconset>
-                  </property>
-                  <property name="iconSize">
-                   <size>
-                    <width>20</width>
-                    <height>20</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_33">
-                  <property name="styleSheet">
-                   <string notr="true">font: 9pt &quot;Bahnschrift&quot;;
-color: #575556;</string>
-                  </property>
-                  <property name="text">
-                   <string>Bạch Đằng</string>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/location-50.png</normaloff>../img/location-50.png</iconset>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="heart7">
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/tyn.png</normaloff>../img/tyn.png</iconset>
-                  </property>
-                  <property name="iconSize">
-                   <size>
-                    <width>24</width>
-                    <height>24</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
           <item row="0" column="2">
            <widget class="QWidget" name="widget_7" native="true">
             <property name="minimumSize">
@@ -855,107 +754,18 @@ color: #575556;</string>
             </layout>
            </widget>
           </item>
-          <item row="2" column="2">
-           <widget class="QWidget" name="widget_15" native="true">
-            <property name="styleSheet">
-             <string notr="true">QWidget{
-    background-color: #C3BBAB;
-    border-radius: 15px;
-}
-QWidget:hover{
-	background-color: #86aacc;
-    border-radius: 15px;
-}</string>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_12">
-             <item>
-              <widget class="QPushButton" name="pushButton_31">
-               <property name="styleSheet">
-                <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="icon">
-                <iconset>
-                 <normaloff>../img/Yen_Bai_-_dogs_-_P1390010-fotor-2023080115454.png</normaloff>../img/Yen_Bai_-_dogs_-_P1390010-fotor-2023080115454.png</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>80</width>
-                 <height>80</height>
-                </size>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QWidget" name="widget_27" native="true">
-               <property name="styleSheet">
-                <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_13">
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_38">
-                  <property name="styleSheet">
-                   <string notr="true">font: 14pt &quot;Bahnschrift&quot;;
-color: #1b1209;</string>
-                  </property>
-                  <property name="text">
-                   <string>Bông</string>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/icons8-female-64.png</normaloff>../img/icons8-female-64.png</iconset>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_39">
-                  <property name="styleSheet">
-                   <string notr="true">font: 9pt &quot;Bahnschrift&quot;;
-color: #575556;</string>
-                  </property>
-                  <property name="text">
-                   <string>Nguyễn Xí</string>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/location-50.png</normaloff>../img/location-50.png</iconset>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="heart9">
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/tyn.png</normaloff>../img/tyn.png</iconset>
-                  </property>
-                  <property name="iconSize">
-                   <size>
-                    <width>24</width>
-                    <height>24</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item row="1" column="0">
-           <widget class="QWidget" name="widget_10" native="true">
+          <item row="0" column="1">
+           <widget class="QWidget" name="widget_6" native="true">
             <property name="minimumSize">
              <size>
-              <width>0</width>
+              <width>220</width>
               <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
              </size>
             </property>
             <property name="cursor">
@@ -971,9 +781,9 @@ QWidget:hover{
     border-radius: 15px;
 }</string>
             </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
              <item>
-              <widget class="QPushButton" name="pushButton_14">
+              <widget class="QPushButton" name="btn_dog2">
                <property name="styleSheet">
                 <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
                </property>
@@ -982,7 +792,7 @@ QWidget:hover{
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>../img/mực.png</normaloff>../img/mực.png</iconset>
+                 <normaloff>../img/kiwi.png</normaloff>../img/kiwi.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -993,23 +803,23 @@ QWidget:hover{
               </widget>
              </item>
              <item>
-              <widget class="QWidget" name="widget_22" native="true">
+              <widget class="QWidget" name="widget_19" native="true">
                <property name="styleSheet">
                 <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
                </property>
-               <layout class="QVBoxLayout" name="verticalLayout_8">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_18">
+                 <widget class="QPushButton" name="btn_name_dog2">
                   <property name="styleSheet">
                    <string notr="true">font: 14pt &quot;Bahnschrift&quot;;
 color: #1b1209;</string>
                   </property>
                   <property name="text">
-                   <string>Mực</string>
+                   <string>Kiwi</string>
                   </property>
                   <property name="icon">
                    <iconset>
-                    <normaloff>../img/icons8-male-64.png</normaloff>../img/icons8-male-64.png</iconset>
+                    <normaloff>../img/icons8-female-64.png</normaloff>../img/icons8-female-64.png</iconset>
                   </property>
                   <property name="iconSize">
                    <size>
@@ -1020,13 +830,13 @@ color: #1b1209;</string>
                  </widget>
                 </item>
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_19">
+                 <widget class="QPushButton" name="pushButton_9">
                   <property name="styleSheet">
                    <string notr="true">font: 9pt &quot;Bahnschrift&quot;;
 color: #575556;</string>
                   </property>
                   <property name="text">
-                   <string>Bạch Đằng</string>
+                   <string>Ngô Tất Tố</string>
                   </property>
                   <property name="icon">
                    <iconset>
@@ -1035,7 +845,7 @@ color: #575556;</string>
                  </widget>
                 </item>
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="heart4">
+                 <widget class="QPushButton" name="heart2">
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
@@ -1060,8 +870,11 @@ color: #575556;</string>
             </layout>
            </widget>
           </item>
-          <item row="2" column="1">
-           <widget class="QWidget" name="widget_14" native="true">
+          <item row="1" column="1">
+           <widget class="QWidget" name="widget_11" native="true">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">QWidget{
     background-color: #C3BBAB;
@@ -1072,9 +885,9 @@ QWidget:hover{
     border-radius: 15px;
 }</string>
             </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
              <item>
-              <widget class="QPushButton" name="pushButton_30">
+              <widget class="QPushButton" name="pushButton_21">
                <property name="styleSheet">
                 <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
                </property>
@@ -1083,7 +896,7 @@ QWidget:hover{
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>../img/tinngan_011905_029367888_5-fotor-20230801154423.png</normaloff>../img/tinngan_011905_029367888_5-fotor-20230801154423.png</iconset>
+                 <normaloff>../img/derry.png</normaloff>../img/derry.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -1094,19 +907,19 @@ QWidget:hover{
               </widget>
              </item>
              <item>
-              <widget class="QWidget" name="widget_26" native="true">
+              <widget class="QWidget" name="widget_23" native="true">
                <property name="styleSheet">
                 <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
                </property>
-               <layout class="QVBoxLayout" name="verticalLayout_12">
+               <layout class="QVBoxLayout" name="verticalLayout_9">
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_35">
+                 <widget class="QPushButton" name="pushButton_22">
                   <property name="styleSheet">
                    <string notr="true">font: 14pt &quot;Bahnschrift&quot;;
 color: #1b1209;</string>
                   </property>
                   <property name="text">
-                   <string>Dúi</string>
+                   <string>Derry</string>
                   </property>
                   <property name="icon">
                    <iconset>
@@ -1121,7 +934,7 @@ color: #1b1209;</string>
                  </widget>
                 </item>
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_37">
+                 <widget class="QPushButton" name="pushButton_23">
                   <property name="styleSheet">
                    <string notr="true">font: 9pt &quot;Bahnschrift&quot;;
 color: #575556;</string>
@@ -1136,7 +949,7 @@ color: #575556;</string>
                  </widget>
                 </item>
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="heart8">
+                 <widget class="QPushButton" name="heart5">
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
@@ -1289,110 +1102,6 @@ color: #575556;</string>
             </layout>
            </widget>
           </item>
-          <item row="1" column="1">
-           <widget class="QWidget" name="widget_11" native="true">
-            <property name="cursor">
-             <cursorShape>PointingHandCursor</cursorShape>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">QWidget{
-    background-color: #C3BBAB;
-    border-radius: 15px;
-}
-QWidget:hover{
-	background-color: #86aacc;
-    border-radius: 15px;
-}</string>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_8">
-             <item>
-              <widget class="QPushButton" name="pushButton_21">
-               <property name="styleSheet">
-                <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-               <property name="icon">
-                <iconset>
-                 <normaloff>../img/derry.png</normaloff>../img/derry.png</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>80</width>
-                 <height>80</height>
-                </size>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QWidget" name="widget_23" native="true">
-               <property name="styleSheet">
-                <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_9">
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_22">
-                  <property name="styleSheet">
-                   <string notr="true">font: 14pt &quot;Bahnschrift&quot;;
-color: #1b1209;</string>
-                  </property>
-                  <property name="text">
-                   <string>Derry</string>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/icons8-male-64.png</normaloff>../img/icons8-male-64.png</iconset>
-                  </property>
-                  <property name="iconSize">
-                   <size>
-                    <width>20</width>
-                    <height>20</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_23">
-                  <property name="styleSheet">
-                   <string notr="true">font: 9pt &quot;Bahnschrift&quot;;
-color: #575556;</string>
-                  </property>
-                  <property name="text">
-                   <string>Ung Văn Khiêm</string>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/location-50.png</normaloff>../img/location-50.png</iconset>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="heart5">
-                  <property name="cursor">
-                   <cursorShape>PointingHandCursor</cursorShape>
-                  </property>
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="icon">
-                   <iconset>
-                    <normaloff>../img/tyn.png</normaloff>../img/tyn.png</iconset>
-                  </property>
-                  <property name="iconSize">
-                   <size>
-                    <width>24</width>
-                    <height>24</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
           <item row="1" column="2">
            <widget class="QWidget" name="widget_12" native="true">
             <property name="styleSheet">
@@ -1488,18 +1197,12 @@ color: #575556;</string>
             </layout>
            </widget>
           </item>
-          <item row="0" column="1">
-           <widget class="QWidget" name="widget_6" native="true">
+          <item row="1" column="0">
+           <widget class="QWidget" name="widget_10" native="true">
             <property name="minimumSize">
              <size>
-              <width>220</width>
+              <width>0</width>
               <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>300</width>
-              <height>16777215</height>
              </size>
             </property>
             <property name="cursor">
@@ -1515,9 +1218,9 @@ QWidget:hover{
     border-radius: 15px;
 }</string>
             </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
              <item>
-              <widget class="QPushButton" name="btn_dog2">
+              <widget class="QPushButton" name="pushButton_14">
                <property name="styleSheet">
                 <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
                </property>
@@ -1526,7 +1229,7 @@ QWidget:hover{
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>../img/kiwi.png</normaloff>../img/kiwi.png</iconset>
+                 <normaloff>../img/mực.png</normaloff>../img/mực.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -1537,23 +1240,23 @@ QWidget:hover{
               </widget>
              </item>
              <item>
-              <widget class="QWidget" name="widget_19" native="true">
+              <widget class="QWidget" name="widget_22" native="true">
                <property name="styleSheet">
                 <string notr="true"> background-color: rgba(255, 0, 0, 0);</string>
                </property>
-               <layout class="QVBoxLayout" name="verticalLayout_6">
+               <layout class="QVBoxLayout" name="verticalLayout_8">
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="btn_name_dog2">
+                 <widget class="QPushButton" name="pushButton_18">
                   <property name="styleSheet">
                    <string notr="true">font: 14pt &quot;Bahnschrift&quot;;
 color: #1b1209;</string>
                   </property>
                   <property name="text">
-                   <string>Kiwi</string>
+                   <string>Mực</string>
                   </property>
                   <property name="icon">
                    <iconset>
-                    <normaloff>../img/icons8-female-64.png</normaloff>../img/icons8-female-64.png</iconset>
+                    <normaloff>../img/icons8-male-64.png</normaloff>../img/icons8-male-64.png</iconset>
                   </property>
                   <property name="iconSize">
                    <size>
@@ -1564,13 +1267,13 @@ color: #1b1209;</string>
                  </widget>
                 </item>
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="pushButton_9">
+                 <widget class="QPushButton" name="pushButton_19">
                   <property name="styleSheet">
                    <string notr="true">font: 9pt &quot;Bahnschrift&quot;;
 color: #575556;</string>
                   </property>
                   <property name="text">
-                   <string>Ngô Tất Tố</string>
+                   <string>Bạch Đằng</string>
                   </property>
                   <property name="icon">
                    <iconset>
@@ -1579,7 +1282,7 @@ color: #575556;</string>
                  </widget>
                 </item>
                 <item alignment="Qt::AlignLeft">
-                 <widget class="QPushButton" name="heart2">
+                 <widget class="QPushButton" name="heart4">
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
@@ -1603,6 +1306,9 @@ color: #575556;</string>
              </item>
             </layout>
            </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QWidget" name="widget_13" native="true"/>
           </item>
          </layout>
         </widget>

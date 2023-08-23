@@ -263,7 +263,7 @@ border-radius: 15px;</string>
 color: #ffffff;</string>
              </property>
              <property name="text">
-              <string>Gia Bao</string>
+              <string>Nghia Cao</string>
              </property>
             </widget>
             <widget class="QLabel" name="label_62">
@@ -284,7 +284,7 @@ color: #ffffff;
 </string>
              </property>
              <property name="text">
-              <string>R&amp;D Coding</string>
+              <string>R&amp;D Manager</string>
              </property>
             </widget>
             <widget class="QPushButton" name="pushButton">
@@ -334,13 +334,13 @@ color: #24222A;</string>
          <property name="minimumSize">
           <size>
            <width>0</width>
-           <height>100</height>
+           <height>120</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
            <width>16777215</width>
-           <height>100</height>
+           <height>120</height>
           </size>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -367,7 +367,7 @@ color: #ffffff;</string>
              <bool>false</bool>
             </property>
             <property name="plainText">
-             <string>Hi, I'm Ngoc Minh, I have 2 years of experience in the field of data analysis.</string>
+             <string>Hello, I'm Trong Nghia, I have more than 10 years of experience in teaching, currently I'm a curriculum manager for programming, robotics and multimedia.</string>
             </property>
            </widget>
           </item>
