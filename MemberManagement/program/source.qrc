@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/800px-MPSS_Mario.png</file>
+    <file>img/1200px-Pac-Man_SSBU.png</file>
+    <file>img/1200px-Pac-Man_SSBU.webp</file>
+    <file>img/home_FILL0_wght400_GRAD0_opsz48.png</file>
+    <file>img/icons8-app-67.png</file>
+    <file>img/icons8-chat-48.png</file>
+    <file>img/icons8-folder-26.png</file>
+    <file>img/icons8-home-25.png</file>
+    <file>img/icons8-mario-50.png</file>
+    <file>img/icons8-notification-48.png</file>
+    <file>img/icons8-notification-center-50.png</file>
+    <file>img/icons8-ranking-48.png</file>
+    <file>img/icons8-setting-64.png</file>
+    <file>img/icons8-star-30.png</file>
+    <file>img/large.bulbasaur.png.f765693a113acd1e064ab4eb8bf10f6f.png</file>
+    <file>img/MindX_Technology School_logo_Final-01.png</file>
+    <file>img/SFClassicRender.png</file>
+    <file>img/SFClassicRender.webp</file>
+    <file>img/SSU_Kirby_artwork.png</file>
+  </qresource>
+</RCC>
