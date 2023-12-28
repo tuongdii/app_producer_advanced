@@ -2,8 +2,8 @@ import sys
 
 from PyQt6.QtWidgets import QApplication
 
-from widget.login import Login, Register
-from widget.main_window import MainWindow, SignalManager
+from widgets.login import Login, Register
+from widgets.main_window import MainWindow, SignalManager
 
 
 if __name__ == '__main__':

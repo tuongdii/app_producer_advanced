@@ -1,7 +1,7 @@
 from PyQt6 import uic
 from PyQt6.QtWidgets import QDialog
 
-from widget.notifications import NotFound
+from widgets.notifications import NotFound
 
 
 # Lớp chứa bộ lọc danh sách Dog

@@ -2,8 +2,8 @@ from PyQt6.QtCore import pyqtSignal
 from PyQt6.QtWidgets import QMainWindow, QWidget
 from PyQt6 import uic
 
-from widget.filters import Dog_Filter, Cat_Filter, Pet_Filter
-from widget.pets import Dog, Cat, Dog_Detail1
+from widgets.filters import Dog_Filter, Cat_Filter, Pet_Filter
+from widgets.pets import Dog, Cat, Dog_Detail1
 
 
 class SignalManager(QWidget):

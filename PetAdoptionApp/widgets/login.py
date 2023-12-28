@@ -1,7 +1,7 @@
 from PyQt6 import uic
 from PyQt6.QtWidgets import QMainWindow
 
-from widget.notifications import MessageBox
+from widgets.notifications import MessageBox
 
 
 # Lớp chứa giao diện đăng nhập
