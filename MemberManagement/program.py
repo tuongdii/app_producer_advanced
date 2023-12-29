@@ -221,10 +221,7 @@ if __name__ == "__main__":
     registerWindow = Register()
     
     # Thiết lập hộp thoại thông báo lỗi
-    msg_box = QMessageBox()
-    msg_box.setWindowTitle("Lỗi")
-    msg_box.setIcon(QMessageBox.Icon.Warning)
-    msg_box.setStyleSheet("background-color: #FFCCCD; color: #132742")
+    msg_box=QMessageBox()
 
     loginWindow.show()
     sys.exit(app.exec())
