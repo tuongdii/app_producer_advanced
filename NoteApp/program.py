@@ -36,8 +36,8 @@ class NoteApp(qtw.QDialog):
 class Detail(qtw.QDialog):
     def __init__(self):
         super(Detail, self).__init__()
-        pageName = "gui/details" + str(page) + ".ui"
-        uic.loadUi(pageName, self)
+        page_name = "gui/details" + str(page) + ".ui"
+        uic.loadUi(page_name, self)
         self.btn_close.clicked.connect(lambda:self.close())
     
         

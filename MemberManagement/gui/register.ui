@@ -143,7 +143,7 @@ font: 11pt &quot;Segoe UI&quot;;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lbUsername">
+        <widget class="QLabel" name="user_name">
          <property name="enabled">
           <bool>true</bool>
          </property>
