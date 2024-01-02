@@ -190,7 +190,7 @@ border-radius: 15px;</string>
              </property>
              <item>
               <widget class="QWidget" name="widget_6" native="true">
-               <widget class="QLabel" name="lblUser">
+               <widget class="QLabel" name="user_img">
                 <property name="geometry">
                  <rect>
                   <x>-3</x>
@@ -228,7 +228,7 @@ border-radius: 15px;</string>
                  <string>Good to see you</string>
                 </property>
                </widget>
-               <widget class="QLabel" name="lbUsername">
+               <widget class="QLabel" name="user_name">
                 <property name="geometry">
                  <rect>
                   <x>80</x>

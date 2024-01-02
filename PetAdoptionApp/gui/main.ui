@@ -216,7 +216,7 @@ color: #1b1209;</string>
                  <string>Binh Thanh, HCMC</string>
                 </property>
                </widget>
-               <widget class="QLabel" name="lbUsername">
+               <widget class="QLabel" name="user_name">
                 <property name="geometry">
                  <rect>
                   <x>83</x>

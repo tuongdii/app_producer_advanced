@@ -1,6 +1,6 @@
 from PyQt6 import uic
 from PyQt6.QtWidgets import QMainWindow
-
+from folder.Team import RegisterOption
 from folder.ErrorBox import MessageBox
 
 
@@ -10,6 +10,7 @@ class Login(QMainWindow):
         super().__init__()
         self.ui = uic.loadUi("gui/login.ui", self)
         self.signal_manager = signal_manager
+
         
         # Bắt sự kiện click chuột vào nút login
         self.ui.btnLogin.clicked.connect(self.check_login)
@@ -58,6 +59,7 @@ class Register(QMainWindow):
         
         # Bắt sự kiện click chuột vào nút đăng ký
         self.btnRegister.clicked.connect(self.register)
+        
         self.btn_Login.clicked.connect(self.show_login)
         self.msg_box = MessageBox()
     
@@ -85,13 +87,19 @@ class Register(QMainWindow):
             self.msg_box.exec()
             return
         
-        self.emit_register_signal()
+        # self.emit_register_signal()
+        self.emitJoinTeamSignal()
         self.close()
         
     def emit_register_signal(self):
         username = self.ui.txtUsername.text()
         self.signal_manager.register_true.emit(username)
-    
+        
+    def emitJoinTeamSignal(self):
+        username = self.ui.txtUsername.text()
+        self.signal_manager.show_joinTeam.emit(username)
+        self.close()
+        
     def show_login(self):
         self.signal_manager.show_login_signal.emit()
         self.close()

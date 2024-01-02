@@ -58,7 +58,7 @@ class Register(QMainWindow):
         
         # Bắt sự kiện click chuột vào nút đăng ký
         self.btnRegister.clicked.connect(self.register)
-        self.btn_login.clicked.connect(self.show_login)
+        self.btn_Login.clicked.connect(self.show_login)
         self.msg_box = MessageBox()
     
     def register(self):

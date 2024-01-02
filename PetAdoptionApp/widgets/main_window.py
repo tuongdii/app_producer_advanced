@@ -37,11 +37,11 @@ class MainWindow(QMainWindow):
         self.ui.btn_dogName.clicked.connect(self.show_dog_details)
         
     def on_login_successful(self, username):
-        self.ui.lbUsername.setText(username)
+        self.ui.user_name.setText(username)
         self.show()
     
     def on_register_successful(self, username):
-        self.ui.lbUsername.setText(username)
+        self.ui.user_name.setText(username)
         self.show()
     
     def show_dog(self):

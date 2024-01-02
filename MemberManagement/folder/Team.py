@@ -1,18 +1,17 @@
 from PyQt6 import uic,QtGui,QtWidgets
+from PyQt6.QtWidgets import QWidget
 from PyQt6.QtWidgets import QMessageBox
-from Login import Register
+from folder.main_window import MainWindow,SignalManager
 
 
-
-from folder.mainWindow import MainWindow
-class JoinTeam(QMessageBox.QDialog):
-    def __init__(self):
+class JoinTeam(QtWidgets.QDialog):
+    def __init__(self, parent:QWidget):
         super().__init__()
         uic.loadUi("gui/joinTeam.ui", self)
-    
-        self.btnJoin.clicked.connect(self.checkCode)
         
-        
+        self.btnJoin.clicked.connect(self.checkCode)      
+        self.parent_widget = parent
+
     def checkCode(self):
         # Lấy mã code từ người dùng
         code = self.txtCode.text()
@@ -25,44 +24,59 @@ class JoinTeam(QMessageBox.QDialog):
         
         # Kiểm tra mã code và thực hiện hành động tương ứng
         if code == "MindX":
-            main=MainWindow()
             # Nếu mã code chính xác, chuyển sang giao diện chính (Main)
-            main.lblUser.setPixmap(QtGui.QPixmap("img/user.png"))
-            main.lbUsername.setText(registerWindow.username)
-            main.show()
+            self.parent_widget.signal_manager.join_successful.emit(self.parent_widget.username)
+            # self.signal_manager.join_successful.emit()
             self.close()
-            registerOption.hide()
         else:
             # Nếu mã code không đúng, hiển thị thông báo lỗi
             msg_box.setText("Không tìm thấy team!")
             msg_box.exec()
             return
+        
 class RegisterOption(QtWidgets.QMainWindow):
-    def __init__(self):
+    def __init__(self, signal_manager):
         super().__init__()
         uic.loadUi("gui/registerOption.ui", self)
-        
-        self.joinTeam = JoinTeam()
-        self.create = Create()
+        self.signal_manager = signal_manager 
+        self.username = ""
         
         #Bắt sự kiện khi người dùng nhấn vào text và icon để tham gia 1 team
-        self.btn_join.clicked.connect(self.joinTeam.show)
-        self.btnLogo_join.clicked.connect(self.joinTeam.show)
+        self.btn_join.clicked.connect(self.on_join_clicked)
+        self.btnLogo_join.clicked.connect(self.on_join_clicked)
         
         #Bắt sự kiện khi người dùng nhấn vào text và icon để tạo 1 team mới
-        self.btn_create.clicked.connect(self.create.show)
-        self.btnLogo_create.clicked.connect(self.create.show)
+        self.btn_create.clicked.connect(self.on_create_clicked)
+        self.btnLogo_create.clicked.connect(self.on_create_clicked)   
+
+    def show_window(self, username):
+        self.username = username
+        self.show()
+    
+    def on_join_clicked(self):
+        self.join_team = JoinTeam(self)
+        self.join_team.show()
+        self.close()
+
+    def on_create_clicked(self):
+        self.create_team = Create()
+        self.create_team.show()
+        self.close()
+
+
+
 class MainEmpty(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/mainEmpty.ui", self)    
+
 
 class Create(QtWidgets.QDialog):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/create.ui", self)
         
-        self.mainEmpty = MainEmpty()
+        self.main_empty = MainEmpty()
         self.btnBack.clicked.connect(self.close)
         self.btnCreate.clicked.connect(self.checkCreate)
     
@@ -77,12 +91,10 @@ class Create(QtWidgets.QDialog):
             return
         
         # Hiển thị thông báo chào mừng và chuyển sang giao diện chính (MainEmpty)
-        self.mainEmpty.lblUser.setPixmap(QtGui.QPixmap("img/user.png"))
-        self.mainEmpty.lbName.setText(registerWindow.username)
-        self.mainEmpty.lbWelcome.setText("Welcome to " + name + "'s team")
-        self.mainEmpty.show()
-        self.close()
-        registerOption.hide()
+        self.main_empty.user_img.setPixmap(QtGui.QPixmap("img/user.png"))
+        self.main_empty.lbName.setText(name)
+        self.main_empty.lbWelcome.setText("Welcome to " + name + "'s team")
+        self.main_empty.show()
 
-registerOption = RegisterOption()
-registerWindow = Register()
+        self.close()
+  
