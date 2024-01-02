@@ -1,7 +1,7 @@
 from PyQt6 import uic, QtGui, QtWidgets
 from PyQt6.QtWidgets import QWidget
 from PyQt6.QtWidgets import QMessageBox
-from folder.main_window import main_empty
+from folder.main_window import mainEmpty
 
 
 class JoinTeam(QtWidgets.QDialog):
@@ -28,7 +28,6 @@ class JoinTeam(QtWidgets.QDialog):
             self.parent_widget.signal_manager.join_successful.emit(
                 self.parent_widget.username
             )
-            # self.signal_manager.join_successful.emit()
             self.close()
         else:
             # Nếu mã code không đúng, hiển thị thông báo lỗi
@@ -72,25 +71,24 @@ class Create(QtWidgets.QDialog):
         super().__init__()
         uic.loadUi("gui/create.ui", self)
 
-        self.main_empty = main_empty()
+        self.main_empty = mainEmpty()
         self.btnBack.clicked.connect(self.close)
         self.btnCreate.clicked.connect(self.checkCreate)
 
     def checkCreate(self):
-        # Lấy thông tin tên từ người dùng
+        '''nhập tên team mới'''
         name = self.txtName.text()
         msg_box = QMessageBox()
-        # Kiểm tra tên có được nhập hay không
+
         if not name:
             msg_box.setText("Vui lòng nhập tên team!")
             msg_box.exec()
             return
 
-        # Hiển thị thông báo chào mừng và chuyển sang giao diện chính
-        # (MainEmpty)
         self.main_empty.user_img.setPixmap(QtGui.QPixmap("img/user.png"))
         self.main_empty.lbName.setText(name)
         self.main_empty.lbWelcome.setText("Welcome to " + name + "'s team")
         self.main_empty.show()
 
         self.close()
+
