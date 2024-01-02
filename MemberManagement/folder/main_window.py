@@ -57,7 +57,7 @@ class Detail(QMainWindow):
         uic.loadUi(page_name, self)
         self.btn_back.clicked.connect(self.close)
 
-class mainEmpty(QtWidgets.QMainWindow):
+class MainEmpty(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("gui/mainEmpty.ui", self)

@@ -1,7 +1,7 @@
 from PyQt6 import uic, QtGui, QtWidgets
 from PyQt6.QtWidgets import QWidget
 from PyQt6.QtWidgets import QMessageBox
-from folder.main_window import mainEmpty
+from folder.main_window import MainEmpty
 
 
 class JoinTeam(QtWidgets.QDialog):
@@ -71,11 +71,11 @@ class Create(QtWidgets.QDialog):
         super().__init__()
         uic.loadUi("gui/create.ui", self)
 
-        self.main_empty = mainEmpty()
+        self.main_empty = MainEmpty()
         self.btnBack.clicked.connect(self.close)
-        self.btnCreate.clicked.connect(self.checkCreate)
+        self.btnCreate.clicked.connect(self.check_create)
 
-    def checkCreate(self):
+    def check_create(self):
         '''nhập tên team mới'''
         name = self.txtName.text()
         msg_box = QMessageBox()
